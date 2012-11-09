@@ -1,0 +1,127 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+header {
+	height:34px;
+	position:fixed;
+	top:0px;
+	width:100%;
+	overflow:auto;
+	border-bottom: 1px solid #133783;
+	-webkit-box-shadow: 1px 1px 4px #222; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #222;
+	background:#3B5998;
+	list-style:none;
+	font-family:tahoma;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	padding:4px;
+	
+}
+
+div.proflile{
+	list-style:none;
+}
+header div.wrapper ul{
+	margin:0px 200px;
+}
+ header div.wrapper ul li{
+ 	padding:0px;
+ }
+ div.wrapper {
+	margin-top:34px;
+	float:left;
+	list-style:none;
+}
+
+img{
+	width:100px;
+	height:100px;
+}
+header div.wrapper {
+	margin-top:0px;
+	float:left;
+	list-style:none;
+}
+
+header div.wrapper ul li{
+	float:left;
+	list-style:none;
+}
+
+div.wrapper ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+div.post{
+	border: 1px solid #E5E5E5;
+}
+
+
+nav{
+	float:left;
+}
+
+nav{
+	margin:0px 80px 0px 200px;
+}
+
+div.content{
+	margin:0px 80px 0px 390px;
+
+}
+div.post img{
+	float:left
+}
+
+
+/* ICON STYLES */
+i {
+	display:inline-block;
+	height:16px;
+	width:16px;	
+}
+header ul li i{
+	background: url(images/fb-icon-set.png) no-repeat;
+}
+
+header ul li i.requests{
+	background-position:-35px -115px;
+}
+
+header ul li i.messages{
+	background-position:-79px -256px;
+}
+
+header ul li i.notifications{
+	background-position:-35px -80px;
+}
+
+nav ul li i{
+	background: url(images/fb-icon-set.png) no-repeat;
+}
+
+nav ul li i.news{
+	background-position:-69px -426px;
+}
+
+nav ul li i.messages{
+	background-position:-51px -425px;
+}
+
+nav ul li i.events{
+	background-position:-53px -576px;
+}
+
+nav ul li i.photos{
+	background-position:-66px -559px;
+}
+
+nav ul li i.music{
+	background-position:-69px -478px;
+}
